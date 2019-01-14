@@ -1,0 +1,24 @@
+{
+  "name": "@pdw.io/preloader",
+  "version": "0.0.1",
+  "description": "A simple asset loader with cache checking.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pimdewit/preloader.git"
+  },
+  "keywords": [
+    "loading",
+    "preloader",
+    "js",
+    "image",
+    "asset",
+    "es6"
+  ],
+  "author": "Pim de Wit // https://pdw.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pimdewit/preloader/issues"
+  },
+  "homepage": "https://github.com/pimdewit/preloader#readme"
+}
