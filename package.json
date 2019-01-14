@@ -1,6 +1,6 @@
 {
   "name": "@pdw.io/preloader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple asset loader with cache checking.",
   "main": "index.js",
   "repository": {

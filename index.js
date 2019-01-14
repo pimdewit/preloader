@@ -45,6 +45,15 @@ export function loadBatch(assetsToLoad) {
   });
 }
 
+/** Convert a base64 string to an image. */
+export function base64ToImage(base64) {
+  return new Promise(resolve => {
+    const image = new Image();
+    image.onload = resolve(image);
+    image.src = base64;
+  })
+}
+
 /**
  * In case you want to see the contents of the cache.
  * @returns {Object}
